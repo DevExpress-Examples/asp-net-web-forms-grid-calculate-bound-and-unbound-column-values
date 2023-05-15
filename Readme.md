@@ -3,13 +3,13 @@
 **[[Run Online]](https://codecentral.devexpress.com/e2961/)**
 <!-- run online end -->
 
-This example demonstrates how to create a bound and unbound columns and calculate their total values on the client.
+This example demonstrates how to create bound and unbound columns and calculate their total values on the client.
 
 ![Calculate unbound column values and total summaries](calculateUnboundColumnValues.png)
 
 ## Overview
 
-Create a bound (**Unit Price**) and unbound (**Count**) grid columns, specify the unbound column's [DataItemTemplate](https://docs.devexpress.com/AspNet/DevExpress.Web.GridViewDataColumn.DataItemTemplate) property, and add a spin editor to the template. 
+Create bound (**Unit Price**) and unbound (**Count**) grid columns, specify the unbound column's [DataItemTemplate](https://docs.devexpress.com/AspNet/DevExpress.Web.GridViewDataColumn.DataItemTemplate) property, and add a spin editor to the template. 
 
 ```aspx
 <dx:GridViewDataTextColumn VisibleIndex="2" FieldName="Count" UnboundType="Integer">
