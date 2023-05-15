@@ -5,7 +5,7 @@
 <!-- default badges end -->
 # Grid View for ASP.NET Web Forms - How to calculate bound and unbound column values on the client
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e2961/)**
+**[[Run Online]](https://codecentral.devexpress.com/128543124/)**
 <!-- run online end -->
 
 This example demonstrates how to create bound and unbound columns and calculate their total values on the client.
