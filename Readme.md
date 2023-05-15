@@ -11,7 +11,7 @@
 <!-- default file list end -->
 # How to sum values of bound and unbound columns and calculate a total value on the client side
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e2961/)**
+**[[Run Online]](https://codecentral.devexpress.com/128543124/)**
 <!-- run online end -->
 
 
