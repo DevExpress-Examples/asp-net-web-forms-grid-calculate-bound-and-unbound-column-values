@@ -18,7 +18,7 @@ Partial Public Class _Default
 		Dim container As GridViewDataItemTemplateContainer = TryCast(spin.NamingContainer, GridViewDataItemTemplateContainer)
 
 
-		Dim price As Decimal = CDec(DataBinder.Eval(container.DataItem, "UnitPrice"))
+		Dim price As Decimal = DirectCast(DataBinder.Eval(container.DataItem, "UnitPrice"), Decimal)
 		spin.ClientSideEvents.ValueChanged = String.Format("function(s, e) {{ var value = s.GetValue() * {1}; txtBox{0}.SetValue(value); CalculateTotal(); }}", container.VisibleIndex, price)
 	End Sub
 	Protected Sub tbTotal_Init(ByVal sender As Object, ByVal e As EventArgs)
